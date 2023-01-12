@@ -96,6 +96,7 @@ main {
 
 /* about section style */
 .about {
+    text-align: center;
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -103,7 +104,6 @@ main {
 }
 
 .section-title {
-    text-align: center;
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px
@@ -113,4 +113,21 @@ main {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title {
+    color: #757575;
+    font-size: 20px;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+
 }
