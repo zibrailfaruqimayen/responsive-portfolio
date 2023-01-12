@@ -153,8 +153,13 @@ main {
     width: 100%
 }
 nav ul {
+    align-items: flex-start;
     flex-direction: column;
-    gap: 20px
+    gap: 20px;
+    padding-left: 20px;
+}
+nav li{
+    margin-left: 0;
 }
 
 .about {
@@ -169,6 +174,11 @@ nav ul {
     .about {
         padding: 20px;
         gap: 20px;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
     }
 }
 
